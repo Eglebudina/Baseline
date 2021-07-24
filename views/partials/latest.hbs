@@ -1,0 +1,42 @@
+
+<section class="ui segment">
+  <h2 class="ui header">
+    {{name}}
+  </h2>
+      <div class="ui five cards inverted">
+        <div class="card">
+          <div class="extra">
+            <h2 class="header">{{station.name}}</h2>
+          </div>
+        </div>
+       
+        <div class="card">
+          <div class="extra">
+            <h2 class="header">Weather</h2>
+            <h4 class="header">{{codeToText}}</h4>
+            
+          </div>
+        </div>
+        <div class="card">
+          <div class="extra">
+            <h2 class="header">Temp</h2>
+            <h4 class="header">{{calculateCelcius}} C</h4>
+            <h4 class="header">{{calculateFahrenheit}} F</h4>
+          </div>
+        </div>
+        <div class="card">
+          <div class="extra">
+            <h2 class="header">Wind</h2>
+            <h4 class="header">{{windBeauford}} bft </h4>
+            
+          </div>
+        </div>
+        <div class="card">
+          <div class="extra">
+            <h2 class="header">Pressure</h2>
+            <h4 class="header">{{latestWeather.pressure}} hpa</h4>
+          </div>
+        </div>
+       
+      </div>
+</section>
